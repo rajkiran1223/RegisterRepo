@@ -4,8 +4,7 @@ FROM nginx:alpine
 # Copy the HTML file to the nginx html directory
 COPY Register.html /usr/share/nginx/html/index.html
 
-# Expose port 80
+# Expose port 90
 EXPOSE 90
 
-# Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+
